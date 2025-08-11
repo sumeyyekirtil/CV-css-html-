@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(245, 213, 213);
+    margin: auto; 
+    overflow: hidden; 
+    width: 1024px; 
+    height: 500px;
+}
+#baslik{
+    width: 100%;
+    height: 309px;
+    background-color: rgb(59, 75, 179);
+}
+h2{
+    color: rgb(15, 15, 152);
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: rgb(15, 15, 152);
+    margin: auto;
+    height: 40px;
+}
+#col{
+    width: auto;
+    height: 110px;
+}
+.box{
+
+    color: rgb(178, 215, 215);
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: beige;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+}
+.box h1{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(8, 8, 108);
+    padding: 0 10px;
+}
+hr{
+    font-size: 30px;
+    color: tomato;
+}
+#hobi{
+    color: rgba(10, 83, 85, 0.886);
+    width: auto;
+    height: 1em;
+    display: flex;
+
+}
+p{
+    text-align: justify;
+    font-size: large;
+}
